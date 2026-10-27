@@ -5,7 +5,7 @@ import {
   CheckCircle2, AlertCircle, Wallet, Receipt, X, ArrowUpRight, TrendingDown
 } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api/expenses';
+const API_URL = '/api/expenses';
 
 export default function App() {
   const [expenses, setExpenses] = useState([]);
